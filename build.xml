@@ -1,0 +1,5 @@
+<project name="learnant" basedir=".">
+  <target name="echohelloworld">
+    <echo>Hello World</echo>
+  </target>
+</project>
