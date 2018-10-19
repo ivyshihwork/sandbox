@@ -2,4 +2,11 @@
   <target name="echohelloworld">
     <echo>Hello World</echo>
   </target>
+  <target name="cmdhelloworld">
+      <exec executable="cmd">
+          <arg value="/c"/>
+          <arg value="echo"/>
+          <arg value="hello world"/>
+      </exec>
+  </target>
 </project>
